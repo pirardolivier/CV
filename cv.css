@@ -1,0 +1,146 @@
+
+    /*HEADER & FOOTER*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/cv-cover.jpg") #4f4f4f;
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+    height: 120px;
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background: #ededed;
+}
+
+
+    /* titres du bloc main */
+    #formation>header, #expe>header {
+        text-align: center;
+        font-size: 2em; 
+        margin: 0.625em  0px; 
+        padding : 0.7% ;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(223, 153, 22);
+    }
+
+    /* diplômes */
+    #formation table th {
+        text-align: left;
+        font-size: 1.2em;
+    }
+    /* espaces entre 2 formations */
+    #formation table tr:nth-child(2n) td {
+        padding-bottom: 1em; /* 16px */
+    }
+
+    
+      /* CIVIL     ------------------------------------- */
+    /* photo identité */
+    #civil>img {
+        display: block;
+        width:95%;
+        margin:auto;
+        border: 3px solid white;
+        border-radius: 5px;
+    }
+    
+    /* adresse de la personne */
+    #civil p {
+        margin: 0.3em 0px; /* 5px/16px 0px; */
+    }
+
+    .contact-flex{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .contact-flex p:first-child{
+        flex: 0 0 40%;
+    }
+    .contact-flex p:last-child{
+        flex: 0 0 60%;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto 0px auto;
+    }
+    .social img{
+        width: 40px;
+        height: 40px;
+    }
+    .prez{
+        border-bottom: 2px dashed #ccc;
+    }
+    .prez a{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto 30px auto;
+        color: #fff;
+        background-color: #333;
+        box-shadow: 0px 0px 10px #ccc;
+        border-radius: 5px;
+    }
+    #formation h1 {
+        font-size: 1.2em;
+        background-color: #0056b3;
+        font-weight: normal;
+    }
+
+    #formation h1 span:first-of-type{
+        display: inline-block; /* nécessaire pour dimensionner */
+        word-wrap: break-word;
+        width:40%;	/* espacer les 2 parties */
+    }
+
+    /* EXPERIENCE ------------------------------------- */
+    /* énum en expériences prof */
+    #expe h1 {
+        font-size: 1.2em;
+        background-color: #0056b3;
+        font-weight: normal;
+    }
+
+    /* séparation en 2 parties de l'expé prof */
+    #expe h1 span:first-of-type{
+        display: inline-block; /* nécessaire pour dimensionner */
+        word-wrap: break-word;
+        width:40%;	/* espacer les 2 parties */
+    }
+    
+
+    /* DIVERS ----------------------------------------- */
+    /* titres et enum en divers */ 
+    #divers>h2 {
+        background-color: white;
+        color : #333;
+        padding : 2% ;
+    }
+
+    #divers ul {
+        list-style: none;
+        padding-left : 0px;
+    }
+
+footer{
+    border-top: 2px solid #fff;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
